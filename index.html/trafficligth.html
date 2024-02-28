@@ -1,0 +1,53 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Traffic Indicator</title>
+</head>
+<style>
+
+  body {
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .containers {
+    background-color: black;
+    padding: 30px;
+    border-radius: 150px;
+    margin-top: 50px;
+  }
+
+  .light {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(91, 91, 91);
+    border-radius: 50%;
+    margin: 20px;
+  }
+
+  .red:hover{
+    background-color: red;
+  }
+
+  .yellow:hover{
+    background-color: yellow;
+  }
+
+  .green:hover{
+    background-color: green;
+  }
+</style>
+
+<body>
+  <div class="containers">
+    <div class="red light"></div>
+    <div class="yellow light"></div>
+    <div class="green light"></div>
+  </div>
+</body>
+
+</html>

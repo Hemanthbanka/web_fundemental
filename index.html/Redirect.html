@@ -1,0 +1,23 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect Page</title>
+    <script>
+        // Function to redirect to the next page after a time limit
+        function redirectToNextPage() {
+            // Replace 'next_page.html' with the URL of your next page
+            setTimeout(function() {
+                window.location.href="./login.html";
+            }, 4000); // 4000 milliseconds = 5 seconds (adjust as needed)
+        }
+        // Call the function when the page loads
+        window.onload = redirectToNextPage;
+    </script>
+</head>
+<body>
+    <center><h1>Redirecting...</h1></center>
+    <center><p><h2>Thank You For Registration</h2></p></center>
+    <center><p>Your registration has been successfully completed.</p></center>
+</body>
+</html>
